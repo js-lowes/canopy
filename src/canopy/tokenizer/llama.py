@@ -47,7 +47,7 @@ class LlamaTokenizer(BaseTokenizer):
             raise ImportError(
                 "The transformers library is required to use the LlamaTokenizer. "
                 "Please install canopy with the [transformers] extra: "
-                "pip install canopy-sdk[transformers]"
+                "pip install lowes-canopy-sdk[transformers]"
             )
 
         hf_token = hf_token or os.environ.get("HUGGINGFACE_TOKEN", "")
